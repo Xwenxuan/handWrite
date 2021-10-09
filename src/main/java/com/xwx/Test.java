@@ -11,6 +11,6 @@ public class Test {
 
     public static void main(String[] args) {
         XwxApplicationContext xwxApplicationContext = new XwxApplicationContext(AppConfig.class);
-        xwxApplicationContext.getBean("userService");
+        System.out.println(xwxApplicationContext.getBean("userService"));
     }
 }
